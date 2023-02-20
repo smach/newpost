@@ -13,3 +13,5 @@ Imports:
     here,
     rstudioapi,
     stringr
+URL: https://github.com/smach/newpost
+BugReports: https://github.com/smach/newpost/issues
