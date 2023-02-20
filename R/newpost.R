@@ -10,7 +10,7 @@
 #'
 newpost <- function(headline, root_dir = here::here()){
   slug <- tolower(headline)
-  slug <- gsub('[[:punct:] ]+','', slug)
+  slug <- gsub('[[:punct:] ]+',' ', slug)
   slug <- trimws(slug)
   slug <- gsub(" ", "-", slug)
   folder_name <- paste0(root_dir, "/posts/", Sys.Date(), "-", slug)
