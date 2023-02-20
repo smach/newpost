@@ -1,0 +1,4 @@
+Name: newpost
+Description: Creates folder and index.qmd file for new Quarto blog post
+Binding: newpost
+Interactive: false

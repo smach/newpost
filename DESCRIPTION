@@ -1,0 +1,15 @@
+Package: newpost
+Title: Create a new index.qmd file for your Quarto blog
+Version: 0.0.0.9000
+Authors@R: 
+    person("Sharon", "Machlis", , "sharon@kc1yr.com", role = c("aut", "cre"))
+Description: Simple and somewhat crude package with one function and one RStudio add-in to create a new folder in your posts directory with the post headline, create an index.qmd file, and add simple YAML.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Imports: 
+    fs,
+    here,
+    rstudioapi,
+    stringr
