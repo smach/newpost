@@ -19,6 +19,7 @@ setwd(folder_name)
   file_contents <- stringr::str_glue('---
 title: "{headline}"
 author: ""
+description: ""
 date: "{Sys.Date()}"
 categories: []
 ---
