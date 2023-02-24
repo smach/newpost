@@ -7,7 +7,7 @@ WARNING: This will create folders and files on your system!
 
 ## Installation
 
-This package is not on cran, but you can install it with
+This package is not on CRAN, but you can install it with
 
 ``` r
 remotes::install_github("smach/newpost", build_vignettes = TRUE)
