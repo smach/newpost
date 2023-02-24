@@ -10,7 +10,7 @@ WARNING: This will create folders and files on your system!
 This package is not on cran, but you can install it with
 
 ``` r
-remotes::install_github("smach/newpost", build_vignettes = TRUE
+remotes::install_github("smach/newpost", build_vignettes = TRUE)
 ```
 
 ## Example
