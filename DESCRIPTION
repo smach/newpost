@@ -15,3 +15,7 @@ Imports:
     stringr
 URL: https://github.com/smach/newpost
 BugReports: https://github.com/smach/newpost/issues
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

@@ -4,12 +4,24 @@
 \alias{newpost}
 \title{Create new folder and index.qmd in your blog's posts directory}
 \usage{
-newpost(headline, root_dir = here::here())
+newpost(
+  headline,
+  description = "",
+  author = "",
+  categories = "",
+  root_dir = here::here()
+)
 }
 \arguments{
+\item{description}{string with post description. Optional but recommended.}
+
+\item{author}{string with author name. Suggest including this in a code snippet, see vignette. OPtional.}
+
+\item{categories}{string in the format "category1, category2" as a single comma-separated string and NOT a vector.}
+
 \item{root_dir}{string your blog's root directory, defaults to here::here()}
 
-\item{character}{string with planned post headline}
+\item{character}{string with planned post headline. Required}
 }
 \value{
 Creates a new folder in posts directory with yyy--mm-dd-headline-in-lowercase where yyyy-mm-dd is current system date
