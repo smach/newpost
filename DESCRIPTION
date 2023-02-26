@@ -1,6 +1,6 @@
 Package: newpost
 Title: Create a new index.qmd file for your Quarto blog
-Version: 0.0.0.9000
+Version: 0.1.0
 Authors@R: 
     person("Sharon", "Machlis", , "sharon@kc1yr.com", role = c("aut", "cre"))
 Description: Simple and somewhat crude package with one function and one RStudio add-in to create a new folder in your posts directory with the post headline, create an index.qmd file, and add simple YAML.
@@ -18,5 +18,6 @@ URL: https://github.com/smach/newpost,
 BugReports: https://github.com/smach/newpost/issues
 Suggests: 
     knitr,
-    rmarkdown
+    rmarkdown,
+    rvest
 VignetteBuilder: knitr
