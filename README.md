@@ -1,7 +1,7 @@
 
 # newpost
 
-newpost is a simple, one-function package for Quarto blogs that helps you create a new folder and index.qmd file for a new blog post. It uses the RStudio IDE's API, so you do need to be running RStudio for this to work properly.
+newpost is a simple, two-function package for Quarto blogs that helps you create a new folder and index.qmd file for a new blog post. It uses the RStudio IDE's API, so you do need to be running RStudio for this to work properly.
 
 WARNING: This will create folders and files on your system!
 
@@ -15,7 +15,7 @@ remotes::install_github("smach/newpost", build_vignettes = TRUE)
 
 ## Example
 
-Want to write a new post with the headline "Welcome to my blog!" and it's March 1, 2023? Run
+Let's say you want to write a new post with the headline "Welcome to my blog!" and it's March 1, 2023. Run
 
 ``` r
 library(newpost)
@@ -41,6 +41,12 @@ When I type `qnp` and hit the tab key, I see this in my console:
 `newpost::newpost("headline", "description", "categories", author = "Sharon Machlis")`
 
 with the cursor having jumped to `headline` as a variable. After filling in the headline spot, you can tab to description and then tab again to categories.
+
+## Categories
+
+While it's easy to check available blog categories by going to your blog's home page, you can stay in your R console and run the `see_cats()` function. It will check the blog home page for you and print out the vector of available categories. 
+
+`see_cats()` takes one argument, the full blog URL including `https://` . You can set an R environment variable `BLOG_URL` to your full blog URL so you don't have to enter it manually into the function.
 
 
 
