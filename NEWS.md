@@ -1,3 +1,5 @@
+# newpost 0.2.0
+
 # newpost 0.1.0
 
 * Added see_cats() function to view available category on a standard Quart blog home page.
