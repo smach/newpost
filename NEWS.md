@@ -1,5 +1,7 @@
 # newpost 0.2.0
 
+* Added the_date as a variable to newpost() for those who want to set a post date in the future.
+
 # newpost 0.1.0
 
 * Added see_cats() function to view available category on a standard Quart blog home page.
