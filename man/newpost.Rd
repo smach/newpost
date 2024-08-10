@@ -9,7 +9,8 @@ newpost(
   description = "",
   author = "",
   categories = "",
-  root_dir = here::here()
+  root_dir = here::here(),
+  the_date = Sys.Date()
 )
 }
 \arguments{
@@ -20,6 +21,8 @@ newpost(
 \item{categories}{string in the format "category1, category2" as a single comma-separated string and NOT a vector.}
 
 \item{root_dir}{string your blog's root directory, defaults to here::here()}
+
+\item{the_date}{date or string in yyyy-mm-dd format}
 
 \item{character}{string with planned post headline. Required}
 }
